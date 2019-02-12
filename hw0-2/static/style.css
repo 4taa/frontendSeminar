@@ -1,0 +1,17 @@
+.tabs {
+    background-color: tomato;
+}
+
+.tabs a span{
+    display: table;
+    border: outset;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    background: #ddd;
+    padding: 25px;
+}
+
+.tabs a span .active{
+    background: aqua;
+}
